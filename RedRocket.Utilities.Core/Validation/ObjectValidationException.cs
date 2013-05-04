@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace RedRocket.Utilities.Core.Validation
 {
-    public class ValidationException : Exception
+    public class ObjectValidationException : Exception
     {
         public IEnumerable<ObjectValidationError> Errors { get; set; }
 
-        public ValidationException(IEnumerable<ObjectValidationError> errors)
+        public ObjectValidationException(IEnumerable<ObjectValidationError> errors)
         {
             Errors = errors;
         }
