@@ -10,8 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0FC247
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedRocket.Utilities.Core.Tests", "RedRocket.Utilities.Core.Tests\RedRocket.Utilities.Core.Tests.csproj", "{D6CD2068-B201-4F3A-B010-A89CCD8CAA68}"
-EndProject
+#Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedRocket.Utilities.Core.Tests", "RedRocket.Utilities.Core.Tests\RedRocket.Utilities.Core.Tests.csproj", "{D6CD2068-B201-4F3A-B010-A89CCD8CAA68}"
+#EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{06C45DB0-EF9C-4910-BAFA-63CF58FCF1C5}"
 	ProjectSection(SolutionItems) = preProject
 		nuspec.2010.7.xsd = nuspec.2010.7.xsd
