@@ -23,9 +23,7 @@ using this tokenized nuspec file.
     <projectUrl>https://github.com/TylerGarlick/RedRocket.Utilities.Core</projectUrl>
     <tags>RedRocket, DataAnnotations on Interfaces, FlitBit, FlitBit Helpers</tags>
     <description>
-      Helpers and Utilities for RedRocket Framework such as:
-      - Annotating Interfaces with DataAnnotations, and running validation on the interfaces.
-      - Helper method to not type as much for formatting strings = "Hello {0}".P("World") -> "Hello World"
+      Helpers and Utilities for RedRocket Framework such as: annotation interfaces with data annotations and formatting strings.
     </description>
     <dependencies>
       <dependency id="JetBrains.Annotations"/>
