@@ -30,8 +30,8 @@ using this tokenized nuspec file.
     <dependencies>
       <dependency id="JetBrains.Annotations"/>
     </dependencies>
-  </metadata>
+  </metadata>http://www.myget.org/F/nexbusiness/
   <files>
-    <file src="RedRocket.Utilities.Core.dll" target="lib\net45" />
+    <file src="Bin\Release\RedRocket.Utilities.Core.dll" target="lib\net45" />
   </files>
 </package>
