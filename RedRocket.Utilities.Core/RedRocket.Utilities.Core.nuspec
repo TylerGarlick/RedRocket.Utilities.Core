@@ -28,7 +28,7 @@ using this tokenized nuspec file.
     <dependencies>
       <dependency id="JetBrains.Annotations"/>
     </dependencies>
-  </metadata>http://www.myget.org/F/nexbusiness/
+  </metadata>
   <files>
     <file src="Bin\Release\RedRocket.Utilities.Core.dll" target="lib\net45" />
   </files>
