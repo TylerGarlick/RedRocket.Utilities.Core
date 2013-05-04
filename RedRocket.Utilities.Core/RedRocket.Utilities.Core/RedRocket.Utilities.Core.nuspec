@@ -32,6 +32,6 @@ using this tokenized nuspec file.
     </dependencies>
   </metadata>
   <files>
-    <file src="../../bin/release/RedRocket.Utilities.Core.dll" target="lib\net45" />
+    <file src="../bin/release/RedRocket.Utilities.Core.dll" target="lib\net45" />
   </files>
 </package>
