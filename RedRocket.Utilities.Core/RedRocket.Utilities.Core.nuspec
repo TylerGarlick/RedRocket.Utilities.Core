@@ -33,6 +33,5 @@ using this tokenized nuspec file.
   </metadata>
   <files>
     <file src="RedRocket.Utilities.Core.dll" target="lib\net45" />
-    <file src="RedRocket.Utilities.Core.pdb" target="lib\net45" />
   </files>
 </package>

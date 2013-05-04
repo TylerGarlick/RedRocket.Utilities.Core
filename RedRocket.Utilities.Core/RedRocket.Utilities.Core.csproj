@@ -66,5 +66,12 @@
   </Target>
   <Target Name="AfterBuild">
   </Target>
+   <Target Name="AfterBuild">
+    <Message Text ="$(SourcePath)" />
+    <MakeDir Directories ="$(RootDir)" />
+    <Exec Command ="copy $(SourcePath) $(RootFolder)" />
+  </Target>
+  
   -->
+ 
 </Project>
