@@ -32,7 +32,7 @@ using this tokenized nuspec file.
     </dependencies>
   </metadata>
   <files>
-    <file src="..\RedRocket.Utilities.Core\Bin\Release\RedRocket.Utilities.Core.dll" target="lib\net45" />
-    <file src="..\RedRocket.Utilities.Core\Bin\Release\RedRocket.Utilities.Core.pdb" target="lib\net45" />
+    <file src="RedRocket.Utilities.Core.dll" target="lib\net45" />
+    <file src="RedRocket.Utilities.Core.pdb" target="lib\net45" />
   </files>
 </package>
