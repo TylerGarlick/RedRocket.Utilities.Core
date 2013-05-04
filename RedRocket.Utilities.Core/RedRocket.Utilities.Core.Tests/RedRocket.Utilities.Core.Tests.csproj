@@ -91,6 +91,7 @@
     <ProjectReference Include="..\RedRocket.Utilities.Core\RedRocket.Utilities.Core.csproj">
       <Project>{e8482d34-3a26-4dfe-9a62-e00d7859a9ed}</Project>
       <Name>RedRocket.Utilities.Core</Name>
+      <Private>True</Private>
     </ProjectReference>
   </ItemGroup>
   <Choose>
