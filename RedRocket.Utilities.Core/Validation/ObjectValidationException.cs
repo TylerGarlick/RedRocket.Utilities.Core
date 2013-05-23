@@ -11,6 +11,5 @@ namespace RedRocket.Utilities.Core.Validation
         {
             Errors = errors;
         }
-
     }
 }

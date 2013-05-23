@@ -9,7 +9,7 @@ namespace RedRocket.Utilities.Core.Tests.Dto
         [Required, StringLength(150, MinimumLength = 3)]
         string FirstName { get; set; }
 
-        [Required]
+        [Required, MaxLength(7)]
         string LastName { get; set; }
 
         [Required, Range(1, 115)]
