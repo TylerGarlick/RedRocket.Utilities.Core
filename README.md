@@ -15,6 +15,7 @@ https://github.com/TylerGarlick/RedRocket.Utilities.Core/blob/master/RedRocket.U
 
 
 __String Formating with .P(object[] args)__
+
 The P() extension method is a direct equivelent of string.Format()
 ```csharp
 string.Format("{0} {1}, "Hello", "World"); 
@@ -32,6 +33,7 @@ someStringWithSomeFormatting.P("fawesome");
 ```
 
 __String Formating with .ToCamelCase(string[] args)__
+
 The ToCamelCase() extension method takes a string and a split args, and turns it into a camel cased string.
 ```csharp
 "hello_world".ToCamelCase("_");
