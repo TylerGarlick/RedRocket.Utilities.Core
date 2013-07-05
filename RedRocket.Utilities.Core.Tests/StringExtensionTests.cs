@@ -29,5 +29,22 @@ namespace RedRocket.Utilities.Core.Tests
             Assert.AreEqual("!ThisIsMyFawesomeString", "!_this_is_my_fawesome_string".ToCamelCase("_"));
             Assert.AreEqual("'ThisIsMyFawesomeString'''", "'_this_is_my_fawesome_string'''".ToCamelCase("_"));
         }
+
+		[TestMethod]
+		public void RemoveAccents_Should_Remove_Accents()
+		{
+			Assert.AreEqual("tracos", "traços".RemoveAccents());
+			Assert.AreEqual("c", "ç".RemoveAccents());
+		}
+
+		[TestMethod]
+		public void ToUrlFriendly_Should_Format_String_Properly()
+		{
+			Assert.AreEqual("hello-world", "Hello World".ToUrlFriendly());
+			Assert.AreEqual("hello-world", "Hello World ".ToUrlFriendly());
+			Assert.AreEqual("hello-world", "        Hello World ".ToUrlFriendly());
+			Assert.AreEqual("hello-world", "Hello - World".ToUrlFriendly());
+			Assert.AreEqual("123-hello-world", "123 Hello - World".ToUrlFriendly());
+		}
     }
 }
