@@ -18,7 +18,7 @@ using this tokenized nuspec file.
     <authors>Tyler Garlick</authors>
     <owners>RedRocket, Tyler Garlick</owners>
     <id>RedRocket.Utilities.Core</id>
-    <title>RedRocket Framework Utilities and Helpers</title>
+    <title>RedRocket | Helpers</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectUrl>https://github.com/TylerGarlick/RedRocket.Utilities.Core</projectUrl>
     <tags>RedRocket, DataAnnotations on Interfaces, FlitBit, FlitBit Helpers</tags>
